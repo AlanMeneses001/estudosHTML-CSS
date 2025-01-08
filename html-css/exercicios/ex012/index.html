@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <style>
+        html{
+            
+            background: #3D0301;
+        }
+        h1, h2, p{
+            color: aliceblue;
+            text-align: center;
+        }
+        video, iframe{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="640" height="360" poster="imagens/panda-vermelho.png" controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv.ogv" type="video/ogg">
+        <source src="midia/meu-video1.webm" type="video/webm">
+        <p>Seu navegador não suporta o formato de video</p>
+    </video>
+    <h2>Ailurus fulgens (Panda Vermelho)</h2>
+        <p>O panda-vermelho ou panda-ruivo, também conhecido como raposa-de-fogo ou gato-de-fogo, <br> é um mamífero nativo do leste do Himalaia e sudoeste da China. <br> É arborícola e dorme em ninhos em sempre-vivas. A cauda é usada para se equilibrar quando em árvores, <br> enquanto no chão é portada reta e horizontalmente. <br>Ailurus fulgens é o único membro da família dos Ailurídeos e do gênero Ailurus ao qual pertence como única espécie</p>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RfLhuzw3I30?si=D_F5y1WtJww9iXo2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
