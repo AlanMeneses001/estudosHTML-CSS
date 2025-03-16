@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+}
+
+main.espaco {
+    background-image: url(img/espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.astronauta {
+    height: 90%;
+    width: 90%;
+    background-image: url(img/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
